@@ -49,8 +49,7 @@ public class BordersController {
 				c++;}
 		}
 		result+="La mappa ha "+(model.getComponentiConnesse()-c)+" componenti connesse \n";
-		txtResult.appendText(result);
-		
+		txtResult.appendText(result);		
 	}
 
 	@FXML // This method is called by the FXMLLoader when initialization is complete
